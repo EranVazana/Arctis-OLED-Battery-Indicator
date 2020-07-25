@@ -12,7 +12,6 @@ module.exports = class GameSenseManager {
         const corePropsJson = fs.readFileSync(absoluteCorePropsFilename, {encoding: 'utf-8'});
         if (corePropsJson) {
             const endpoint = JSON.parse(corePropsJson).address.split(':');
-
             this.sseAddress = endpoint[0];
             this.ssePort = endpoint[1];
         }
@@ -77,13 +76,12 @@ module.exports = class GameSenseManager {
             game: this.app_name,
             event: this.percent_event_name,
             data: {frame: {headline: headset_status(percent), subline: text_to_display, progress: percent}}
-
         };
 
         this.postToEngine("/game_event", event_data);
     }
 
-    postToEngine(request_type, data) {
+    postToEngine(request_type, data = "") {
         const jsonData = JSON.stringify(data);
 
         const options = {
@@ -109,10 +107,18 @@ module.exports = class GameSenseManager {
         request.end();
     }
 
-    removeApp(){
-        const event = {
+    onExit(){
+        const exit_event = {
             game: this.app_name,
         };
-        this.postToEngine("/remove_game", event);
+
+        this.postToEngine("/stop_game", exit_event)
+    }
+
+    removeApp(){
+        const remove_event = {
+            game: this.app_name,
+        };
+        this.postToEngine("/remove_game", remove_event);
     }
 }

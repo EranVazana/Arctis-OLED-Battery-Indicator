@@ -16,7 +16,7 @@ module.exports = class Headset {
         try {
             this.device.write([0x06, 0x18])
             const report = this.device.readSync()[2];
-            if (parseInt(report) > 0)
+            if (parseInt(report) > 1)
                 return report;
             else
                 return "-";

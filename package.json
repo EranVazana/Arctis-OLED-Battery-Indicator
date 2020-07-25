@@ -14,6 +14,7 @@
     "node-hid": "^1.3.0"
   },
   "devDependencies": {
+    "exit-hook": "^2.2.0",
     "promise": "^8.1.0"
   }
 }
