@@ -1,21 +1,27 @@
 {
-  "name": "arctis-battery-oled",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "node-hid": "^1.3.0"
-  },
-  "devDependencies": {
-    "exit-hook": "^2.2.0",
-    "node-windows": "^1.0.0-beta.4",
-    "promise": "^8.1.0"
-  }
+	"name": "arctis-battery-oled",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./dist/main.js",
+	"scripts": {
+		"build": "tsc",
+		"build:watch": "tsc --watch",
+		"install-service": "node ./dist/install-as-service.js"
+	},
+	"keywords": [],
+	"author": "Eran Vazana",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"node-fetch": "^2.6.0",
+		"node-hid": "^1.3.0",
+		"typescript": "^3.9.7"
+	},
+	"devDependencies": {
+		"@types/node-hid": "^1.2.0",
+		"@types/node-windows": "^0.1.0",
+		"exit-hook": "^2.2.0",
+		"node-windows": "^1.0.0-beta.4",
+		"promise": "^8.1.0"
+	}
 }
