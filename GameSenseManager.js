@@ -69,8 +69,11 @@ module.exports = class GameSenseManager {
         };
 
         let text_to_display = "Battery Percent: " + percent;
-        if (percent !== '-')
+        if (percent !== '-') {
+            if (percent === 100)
+                //text_to_display.slice(0, -1)
             text_to_display += '%';
+        }
 
         const event_data = {
             game: this.app_name,

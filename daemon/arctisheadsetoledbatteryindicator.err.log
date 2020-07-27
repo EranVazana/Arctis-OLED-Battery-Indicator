@@ -883,3 +883,93 @@ Emitted 'error' event on ClientRequest instance at:
   address: '127.0.0.1',
   port: 49406
 }
+D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:54
+  if (msg.trim().length == 0) {return};
+          ^
+
+TypeError: msg.trim is not a function
+    at write (D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:54:11)
+    at logger.value [as error] (D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:166:9)
+    at Timeout._onTimeout (D:\Programming Projects\arctis-battery-oled\Main.js:34:13)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:54
+  if (msg.trim().length == 0) {return};
+          ^
+
+TypeError: msg.trim is not a function
+    at write (D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:54:11)
+    at logger.value [as error] (D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:166:9)
+    at Timeout._onTimeout (D:\Programming Projects\arctis-battery-oled\Main.js:34:13)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:54
+  if (msg.trim().length == 0) {return};
+          ^
+
+TypeError: msg.trim is not a function
+    at write (D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:54:11)
+    at logger.value [as error] (D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:166:9)
+    at Timeout._onTimeout (D:\Programming Projects\arctis-battery-oled\Main.js:34:13)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:54
+  if (msg.trim().length == 0) {return};
+          ^
+
+TypeError: msg.trim is not a function
+    at write (D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:54:11)
+    at logger.value [as error] (D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:166:9)
+    at Timeout._onTimeout (D:\Programming Projects\arctis-battery-oled\Main.js:34:13)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:54
+  if (msg.trim().length == 0) {return};
+          ^
+
+TypeError: msg.trim is not a function
+    at write (D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:54:11)
+    at logger.value [as error] (D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:166:9)
+    at Timeout._onTimeout (D:\Programming Projects\arctis-battery-oled\Main.js:34:13)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:54
+  if (msg.trim().length == 0) {return};
+          ^
+
+TypeError: msg.trim is not a function
+    at write (D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:54:11)
+    at logger.value [as error] (D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:166:9)
+    at Timeout._onTimeout (D:\Programming Projects\arctis-battery-oled\Main.js:34:13)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:54
+  if (msg.trim().length == 0) {return};
+          ^
+
+TypeError: msg.trim is not a function
+    at write (D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:54:11)
+    at logger.value [as error] (D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:166:9)
+    at Timeout._onTimeout (D:\Programming Projects\arctis-battery-oled\Main.js:34:13)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:54
+  if (msg.trim().length == 0) {return};
+          ^
+
+TypeError: msg.trim is not a function
+    at write (D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:54:11)
+    at logger.value [as error] (D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:166:9)
+    at Timeout._onTimeout (D:\Programming Projects\arctis-battery-oled\Main.js:34:13)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:54
+  if (msg.trim().length == 0) {return};
+          ^
+
+TypeError: msg.trim is not a function
+    at write (D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:54:11)
+    at logger.value [as error] (D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\eventlog.js:166:9)
+    at Timeout._onTimeout (D:\Programming Projects\arctis-battery-oled\Main.js:34:13)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
