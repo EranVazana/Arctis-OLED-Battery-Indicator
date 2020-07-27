@@ -3,11 +3,11 @@
 	<name>Arctis Headset OLED Battery Indicator</name>
 	<description>Display battery information on your OLED screen.</description>
 	<executable>C:\Program Files\nodejs\node.exe</executable>
-	<logmode>rotate</logmode>
 	<argument>--harmony</argument>
-	<argument>D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>C:\Users\ariel\Documents\Dev\Arctis-OLED-Battery-Indicator\node_modules\node-windows\lib\wrapper.js</argument>
 	<argument>--file</argument>
-	<argument>D:\Programming Projects\arctis-battery-oled\Main.js</argument>
+	<argument>C:\Users\ariel\Documents\Dev\Arctis-OLED-Battery-Indicator\main.js</argument>
+	<argument>--scriptoptions=</argument>
 	<argument>--log</argument>
 	<argument>Arctis Headset OLED Battery Indicator wrapper</argument>
 	<argument>--grow</argument>
@@ -20,6 +20,13 @@
 	<argument>n</argument>
 	<argument>--stopparentfirst</argument>
 	<argument>undefined</argument>
+	<logmode>rotate</logmode>
 	<stoptimeout>30sec</stoptimeout>
-	<workingdirectory>D:\Programming Projects\arctis-battery-oled</workingdirectory>
+	<serviceaccount>
+		<domain>ARIELLAPTOP</domain>
+		<user>LocalSystem</user>
+		<password></password>
+		<allowservicelogon>true</allowservicelogon>
+	</serviceaccount>
+	<workingdirectory>C:\Users\ariel\Documents\Dev\Arctis-OLED-Battery-Indicator</workingdirectory>
 </service>
