@@ -1,7 +1,9 @@
 const ListHeadsets = require('./ListHeadsets.js')
 const Headset = require('./Headset.js')
 const GameSenseManager = require('./GameSenseManager.js')
+
 const exitHook = require('exit-hook');
+
 const EventLogger = require('node-windows').EventLogger;
 
 const log = new EventLogger({
@@ -10,9 +12,9 @@ const log = new EventLogger({
 });
 
 try {
-    var headsetCreds = ListHeadsets.getConnectedHeadset()
-    var myHeadset = new Headset(headsetCreds)
-    var myGameSenseManager = new GameSenseManager(myHeadset.headsetName)
+    let headsetCreds = ListHeadsets.getConnectedHeadset()
+    let myHeadset = new Headset(headsetCreds)
+    let myGameSenseManager = new GameSenseManager(myHeadset.headsetName)
 
     exitHook(() => {
         myGameSenseManager.onExit();
