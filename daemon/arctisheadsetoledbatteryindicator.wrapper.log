@@ -1,0 +1,74 @@
+2020-07-27 01:58:13 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\wrapper.js" --file "D:\Programming Projects\arctis-battery-oled\Main.js" --log "Arctis Headset OLED Battery Indicator wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-27 01:58:13 - Started 2576
+2020-07-27 02:01:19 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\wrapper.js" --file "D:\Programming Projects\arctis-battery-oled\Main.js" --log "Arctis Headset OLED Battery Indicator wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-27 02:01:19 - Started 6464
+2020-07-27 02:02:20 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\wrapper.js" --file "D:\Programming Projects\arctis-battery-oled\Main.js" --log "Arctis Headset OLED Battery Indicator wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-27 02:02:20 - Started 10524
+2020-07-27 02:04:57 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\wrapper.js" --file "D:\Programming Projects\arctis-battery-oled\Main.js" --log "Arctis Headset OLED Battery Indicator wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-27 02:04:57 - Started 12124
+2020-07-27 02:07:50 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\wrapper.js" --file "D:\Programming Projects\arctis-battery-oled\Main.js" --log "Arctis Headset OLED Battery Indicator wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-27 02:07:50 - Started 6452
+2020-07-27 02:08:58 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\wrapper.js" --file "D:\Programming Projects\arctis-battery-oled\Main.js" --log "Arctis Headset OLED Battery Indicator wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-27 02:08:58 - Started 4004
+2020-07-27 02:11:49 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\wrapper.js" --file "D:\Programming Projects\arctis-battery-oled\Main.js" --log "Arctis Headset OLED Battery Indicator wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-27 02:11:49 - Started 6568
+2020-07-27 02:12:59 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\wrapper.js" --file "D:\Programming Projects\arctis-battery-oled\Main.js" --log "Arctis Headset OLED Battery Indicator wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-27 02:12:59 - Started 2944
+2020-07-27 02:15:43 - Stopping arctisheadsetoledbatteryindicator.exe
+2020-07-27 02:15:43 - ProcessKill 2944
+2020-07-27 02:15:43 - Found child process: 3016 Name: conhost.exe
+2020-07-27 02:15:43 - Found child process: 4208 Name: node.exe
+2020-07-27 02:15:43 - Stopping process 3016
+2020-07-27 02:15:43 - Send SIGINT 3016
+2020-07-27 02:15:43 - SIGINT to 3016 failed - Killing as fallback
+2020-07-27 02:15:43 - Stopping process 4208
+2020-07-27 02:15:43 - Send SIGINT 4208
+2020-07-27 02:15:43 - SIGINT to 4208 failed - Killing as fallback
+2020-07-27 02:15:43 - Stopping process 2944
+2020-07-27 02:15:43 - Send SIGINT 2944
+2020-07-27 02:15:43 - SIGINT to 2944 failed - Killing as fallback
+2020-07-27 02:15:43 - Finished arctisheadsetoledbatteryindicator.exe
+2020-07-27 02:15:45 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\wrapper.js" --file "D:\Programming Projects\arctis-battery-oled\Main.js" --log "Arctis Headset OLED Battery Indicator wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-27 02:15:45 - Started 14028
+2020-07-27 12:55:48 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\wrapper.js" --file "D:\Programming Projects\arctis-battery-oled\Main.js" --log "Arctis Headset OLED Battery Indicator wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-27 12:55:48 - Started 6356
+2020-07-27 12:59:43 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\wrapper.js" --file "D:\Programming Projects\arctis-battery-oled\Main.js" --log "Arctis Headset OLED Battery Indicator wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-27 12:59:43 - Started 7280
+2020-07-27 12:59:58 - Stopping arctisheadsetoledbatteryindicator.exe
+2020-07-27 12:59:58 - ProcessKill 7280
+2020-07-27 12:59:58 - Found child process: 8800 Name: conhost.exe
+2020-07-27 12:59:58 - Found child process: 3464 Name: node.exe
+2020-07-27 12:59:58 - Stopping process 8800
+2020-07-27 12:59:58 - Send SIGINT 8800
+2020-07-27 12:59:58 - SIGINT to 8800 failed - Killing as fallback
+2020-07-27 12:59:58 - Stopping process 3464
+2020-07-27 12:59:58 - Send SIGINT 3464
+2020-07-27 12:59:58 - SIGINT to 3464 failed - Killing as fallback
+2020-07-27 12:59:58 - Stopping process 7280
+2020-07-27 12:59:58 - Send SIGINT 7280
+2020-07-27 12:59:58 - SIGINT to 7280 failed - Killing as fallback
+2020-07-27 12:59:58 - Finished arctisheadsetoledbatteryindicator.exe
+2020-07-27 13:02:32 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\wrapper.js" --file "D:\Programming Projects\arctis-battery-oled\Main.js" --log "Arctis Headset OLED Battery Indicator wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-27 13:02:32 - Started 6528
+2020-07-27 13:08:01 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\wrapper.js" --file "D:\Programming Projects\arctis-battery-oled\Main.js" --log "Arctis Headset OLED Battery Indicator wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-27 13:08:01 - Started 6544
+2020-07-27 13:09:07 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\wrapper.js" --file "D:\Programming Projects\arctis-battery-oled\Main.js" --log "Arctis Headset OLED Battery Indicator wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-27 13:09:07 - Started 4288
+2020-07-27 13:15:11 - Stopping arctisheadsetoledbatteryindicator.exe
+2020-07-27 13:15:11 - ProcessKill 4288
+2020-07-27 13:15:12 - Found child process: 9540 Name: conhost.exe
+2020-07-27 13:15:12 - Found child process: 2960 Name: node.exe
+2020-07-27 13:15:12 - Stopping process 9540
+2020-07-27 13:15:12 - Send SIGINT 9540
+2020-07-27 13:15:12 - SIGINT to 9540 failed - Killing as fallback
+2020-07-27 13:15:12 - Stopping process 2960
+2020-07-27 13:15:12 - Send SIGINT 2960
+2020-07-27 13:15:12 - SIGINT to 2960 failed - Killing as fallback
+2020-07-27 13:15:12 - Stopping process 4288
+2020-07-27 13:15:12 - Send SIGINT 4288
+2020-07-27 13:15:12 - SIGINT to 4288 failed - Killing as fallback
+2020-07-27 13:15:12 - Finished arctisheadsetoledbatteryindicator.exe
+2020-07-27 14:07:02 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\wrapper.js" --file "D:\Programming Projects\arctis-battery-oled\Main.js" --log "Arctis Headset OLED Battery Indicator wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-27 14:07:02 - Started 4052
+2020-07-27 16:06:30 - Starting C:\Program Files\nodejs\node.exe  --harmony "D:\Programming Projects\arctis-battery-oled\node_modules\node-windows\lib\wrapper.js" --file "D:\Programming Projects\arctis-battery-oled\Main.js" --log "Arctis Headset OLED Battery Indicator wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-27 16:06:30 - Started 776
