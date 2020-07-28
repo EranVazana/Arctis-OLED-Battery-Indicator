@@ -3,7 +3,7 @@ const HID = require('node-hid');
 const headsets_ids = [
     [0x1038, 0x12ad], // Arctis 7 2019
     [0x1038, 0x1260], // Arctis 7 2017
-    [0x1038, 0x1252], // Arctis Pro
+    [0x1038, 0x1294], // Arctis Pro
     [0x1038, 0x12b3] // Actris 1 Wireless
 ]
 
