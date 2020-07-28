@@ -68,12 +68,16 @@ module.exports = class GameSenseManager {
             return "Online"
         };
 
-        let text_to_display = "Battery Percent: " + percent;
+        let text_to_display = "Battery Percent: ";
         if (percent !== '-') {
-            if (percent === 100)
-                //text_to_display.slice(0, -1)
+            if (percent === 100) {
+                text_to_display = text_to_display.slice(0, -1);
+            }
+            text_to_display += percent;
             text_to_display += '%';
         }
+        else
+            text_to_display = "Reconnect Headset";
 
         const event_data = {
             game: this.app_name,
