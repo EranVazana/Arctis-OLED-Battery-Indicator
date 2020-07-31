@@ -10,7 +10,7 @@ const exitHook = require('exit-hook');
 
 // @todo: cross-platform support
 const EventLogger = require('node-windows').EventLogger;
-const BatteryCheckTimeMS = 60000;
+const BatteryCheckTimeMS = 10000;
 const log = new EventLogger('Arctis OLED');
 
 let myHeadset;
@@ -36,7 +36,14 @@ try {
     return;
 }
 
+// check battery on initial run
+checkBattery();
+
 batteryCheckInterval = setInterval(function(){
+    checkBattery();
+}, BatteryCheckTimeMS);
+
+function checkBattery() {
     try {
         let battery_percent = myHeadset.getBatteryPercentage();
         myGameSenseManager.displayBatteryPercentage(battery_percent);
@@ -44,4 +51,4 @@ batteryCheckInterval = setInterval(function(){
         console.log(write_error);
         log.error(write_error);
     }
-}, BatteryCheckTimeMS);
+}

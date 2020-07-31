@@ -3,7 +3,7 @@ const fs = require('fs');
 
 module.exports = class GameSenseManager {
     constructor(headset_name) {
-        this.app_name = 'EranVazana_ARCTIS_BATTERY';
+        this.app_name = 'ERANVAZANA_ARCTIS_BATTERY';
         // @todo: make this cross-platform
         const corePropsFilename = '%PROGRAMDATA%/SteelSeries/SteelSeries Engine 3/coreProps.json';
         const absoluteCorePropsFilename = corePropsFilename.replace(
