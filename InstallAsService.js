@@ -1,4 +1,4 @@
-var Service = require('node-windows').Service;
+const { Service } = require('node-windows');
 
 const svc = new Service({
     name: 'Arctis Headset OLED Battery Indicator',
@@ -6,7 +6,7 @@ const svc = new Service({
     script: 'Main.js',
 });
 
-svc.on('install',function(){
+svc.on('install', function () {
     svc.start();
 });
 
