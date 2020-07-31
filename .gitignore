@@ -1,0 +1,7 @@
+# node JS dependencies
+node_modules
+
+# program output
+daemon
+
+.DS_Store
