@@ -3,7 +3,7 @@ const fs = require('fs');
 
 module.exports = class GameSenseManager {
     constructor(headset_name) {
-        this.app_name = "ARCTIS_BATTERY"
+        this.app_name = 'ARCTIS_BATTERY'
         const corePropsFilename = '%PROGRAMDATA%/SteelSeries/SteelSeries Engine 3/coreProps.json';
         const absoluteCorePropsFilename = corePropsFilename.replace(/%([^%]+)%/g, function replaceEnvVariables(ignore, index) {
             return process.env[index];
@@ -16,41 +16,41 @@ module.exports = class GameSenseManager {
             this.ssePort = endpoint[1];
         }
         else
-            throw new Error("Error finding SSE address.");
+            throw new Error('Error finding SSE address.');
 
 
         const app_reg_data = {
             game: this.app_name,
-            game_display_name: "Arctis Battery OLED Indicator",
-            developer: "Eran Vazana"
+            game_display_name: 'Arctis Battery OLED Indicator',
+            developer: 'Eran Vazana'
         };
 
-        this.postToEngine("/game_metadata", app_reg_data);
+        this.postToEngine('/game_metadata', app_reg_data);
 
-        this.percent_event_name = "DISPLAY_HEADSET_PERCENT";
+        this.percent_event_name = 'DISPLAY_HEADSET_PERCENT';
 
         const percent_event = {
             game: this.app_name,
             event: this.percent_event_name,
             value_optional: true,
             handlers: [{
-                "device-type": "screened",
-                "mode": "screen",
-                "datas": [
+                'device-type': 'screened',
+                'mode': 'screen',
+                'datas': [
                     {
-                        "lines": [{
-                            "has-text": true,
-                            "context-frame-key": "headline",
-                            "prefix": headset_name + " - ",
-                            "bold": true,
+                        'lines': [{
+                            'has-text': true,
+                            'context-frame-key': 'headline',
+                            'prefix': headset_name + ' - ',
+                            'bold': true,
                         },
                             {
-                                "has-text": true,
-                                "context-frame-key": "subline"
+                                'has-text': true,
+                                'context-frame-key': 'subline'
                             },
                             {
-                                "has-progress-bar": true,
-                                "context-frame-key": "progress"
+                                'has-progress-bar': true,
+                                'context-frame-key': 'progress'
                             }
                         ]
                     }
@@ -58,17 +58,17 @@ module.exports = class GameSenseManager {
             }]
         };
 
-        this.postToEngine("/bind_game_event", percent_event);
+        this.postToEngine('/bind_game_event', percent_event);
     }
 
     displayBatteryPercentage(percent){
         const headset_status = function (p) {
             if (p === null)
-                return "Offline";
-            return "Online"
+                return 'Offline';
+            return 'Online'
         };
 
-        let text_to_display = "Battery Percent: ";
+        let text_to_display = 'Battery Percent: ';
         if (percent !== null) {
             if (percent === 100)
                 text_to_display = text_to_display.slice(0, -1);
@@ -77,7 +77,7 @@ module.exports = class GameSenseManager {
             text_to_display += '%';
         }
         else
-            text_to_display = "Reconnect Headset";
+            text_to_display = 'Reconnect Headset';
 
         const event_data = {
             game: this.app_name,
@@ -85,10 +85,10 @@ module.exports = class GameSenseManager {
             data: {frame: {headline: headset_status(percent), subline: text_to_display, progress: percent}}
         };
 
-        this.postToEngine("/game_event", event_data);
+        this.postToEngine('/game_event', event_data);
     }
 
-    postToEngine(request_type, data = "") {
+    postToEngine(request_type, data = '') {
         const jsonData = JSON.stringify(data);
 
         const options = {
@@ -106,7 +106,7 @@ module.exports = class GameSenseManager {
             response.setEncoding('utf8');
             response.on('data', function handleOnData(chunk) {
                 if (response.statusCode !== 200)
-                    throw new Error(JSON.parse(chunk)["error"]);
+                    throw new Error(JSON.parse(chunk)['error']);
             });
         });
 
@@ -119,13 +119,13 @@ module.exports = class GameSenseManager {
             game: this.app_name,
         };
 
-        this.postToEngine("/stop_game", exit_event)
+        this.postToEngine('/stop_game', exit_event)
     }
 
     removeApp(){
         const remove_event = {
             game: this.app_name,
         };
-        this.postToEngine("/remove_game", remove_event);
+        this.postToEngine('/remove_game', remove_event);
     }
 }

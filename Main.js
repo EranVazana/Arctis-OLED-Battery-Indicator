@@ -1,3 +1,7 @@
+// SteelSeries Arctis Headsets Battery Indicator on OLED.
+// Made by: Eran Vazna.
+// Thanks for cheking out my project!
+
 const ListHeadsets = require('./ListHeadsets.js');
 const Headset = require('./Headset.js');
 const GameSenseManager = require('./GameSenseManager.js');

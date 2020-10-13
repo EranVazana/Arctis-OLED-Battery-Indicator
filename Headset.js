@@ -3,7 +3,7 @@ HID.setDriverType('libusb');
 
 module.exports = class Headset {
     constructor(deviceInfo) {
-        this.headset_name = deviceInfo["product"].replace("SteelSeries ","");
+        this.headset_name = deviceInfo['product'].replace('SteelSeries ','');
         this.device = new HID.HID(deviceInfo.path);
         this.device.setNonBlocking(HID.HID.no_block);
         if (!this.device)
