@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9ba2a66f-fedf-4ec9-bdc3-dcb8f2cd3f55" name="Default Changelist" comment="- Fixed text not displaying correctly on 100%">
+      <change beforePath="$PROJECT_DIR$/GameSenseManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/GameSenseManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headset.js" beforeDir="false" afterPath="$PROJECT_DIR$/Headset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InstallAsService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intsall As Service.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListHeadsets.js" beforeDir="false" afterPath="$PROJECT_DIR$/ListHeadsets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Run.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daemon/arctisheadsetoledbatteryindicator.err.log" beforeDir="false" afterPath="$PROJECT_DIR$/daemon/arctisheadsetoledbatteryindicator.err.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daemon/arctisheadsetoledbatteryindicator.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/daemon/arctisheadsetoledbatteryindicator.out.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daemon/arctisheadsetoledbatteryindicator.wrapper.log" beforeDir="false" afterPath="$PROJECT_DIR$/daemon/arctisheadsetoledbatteryindicator.wrapper.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="81903695c2bac15424796f4923fc6b6f06543e0c" />
+  </component>
+  <component name="ProjectId" id="1esVSlhuKVNt3QNnjcfqQKdbcLn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming Projects\arctis-battery-oled\node_modules" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.Main.js">
+    <configuration name="GameSenseManager.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/GameSenseManager.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Headset.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Headset.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="InstallService.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/InstallService.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Main.js" type="NodeJSConfigurationType" temporary="true" path-to-node="node" nameIsGenerated="true" path-to-js-file="Main.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Main.js" />
+        <item itemvalue="Node.js.InstallService.js" />
+        <item itemvalue="Node.js.GameSenseManager.js" />
+        <item itemvalue="Node.js.Headset.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ba2a66f-fedf-4ec9-bdc3-dcb8f2cd3f55" name="Default Changelist" comment="" />
+      <created>1595110289606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595110289606</updated>
+      <workItem from="1595110291830" duration="1594000" />
+      <workItem from="1595163468428" duration="2828000" />
+      <workItem from="1595170946243" duration="1604000" />
+      <workItem from="1595173296841" duration="21429000" />
+      <workItem from="1595247792942" duration="1929000" />
+      <workItem from="1595256896940" duration="5930000" />
+      <workItem from="1595287644483" duration="667000" />
+      <workItem from="1595288749420" duration="3267000" />
+      <workItem from="1595292033363" duration="1994000" />
+      <workItem from="1595295003383" duration="2517000" />
+      <workItem from="1595593452632" duration="404000" />
+      <workItem from="1595593864578" duration="2363000" />
+      <workItem from="1595596336575" duration="1613000" />
+      <workItem from="1595600037452" duration="3453000" />
+      <workItem from="1595605735194" duration="89000" />
+      <workItem from="1595606358067" duration="267000" />
+      <workItem from="1595606656065" duration="7440000" />
+      <workItem from="1595687628065" duration="1612000" />
+      <workItem from="1595792774754" duration="301000" />
+      <workItem from="1595793477346" duration="3622000" />
+      <workItem from="1595803159045" duration="965000" />
+      <workItem from="1595844845169" duration="3704000" />
+      <workItem from="1595864379582" duration="3770000" />
+      <workItem from="1595890868216" duration="2033000" />
+      <workItem from="1595895120078" duration="1222000" />
+      <workItem from="1595897013181" duration="2702000" />
+      <workItem from="1595944857472" duration="568000" />
+      <workItem from="1595945452817" duration="351000" />
+      <workItem from="1595945931943" duration="599000" />
+      <workItem from="1595949264470" duration="985000" />
+      <workItem from="1596576213900" duration="156000" />
+      <workItem from="1602171624278" duration="1222000" />
+      <workItem from="1602174565844" duration="126000" />
+      <workItem from="1602202855403" duration="1771000" />
+      <workItem from="1602204666809" duration="1216000" />
+      <workItem from="1602258258020" duration="1169000" />
+      <workItem from="1602264404552" duration="608000" />
+      <workItem from="1602367639334" duration="1628000" />
+      <workItem from="1602369618404" duration="554000" />
+      <workItem from="1602371045515" duration="903000" />
+      <workItem from="1602447412994" duration="779000" />
+      <workItem from="1602520847918" duration="963000" />
+    </task>
+    <task id="LOCAL‎00001" summary="Initial Commit">
+      <created>1595606780135</created>
+      <option name="number" value="LOCAL‎00001" />
+      <option name="presentableId" value="LOCAL‎00001" />
+      <updated>1595606780135</updated>
+    </task>
+    <task id="LOCAL‎00002" summary="Initial Commit">
+      <created>1595606917867</created>
+      <option name="number" value="LOCAL‎00002" />
+      <option name="presentableId" value="LOCAL‎00002" />
+      <updated>1595606917867</updated>
+    </task>
+    <task id="LOCAL‎00003" summary="Added onExit function to GameSenseManager">
+      <created>1595687700498</created>
+      <option name="number" value="LOCAL‎00003" />
+      <option name="presentableId" value="LOCAL‎00003" />
+      <updated>1595687700498</updated>
+    </task>
+    <task id="LOCAL‎00004" summary="Added onExit function to GameSenseManager">
+      <created>1595687710918</created>
+      <option name="number" value="LOCAL‎00004" />
+      <option name="presentableId" value="LOCAL‎00004" />
+      <updated>1595687710918</updated>
+    </task>
+    <task id="LOCAL‎00005" summary="- Added Install as windows service option.">
+      <created>1595845197024</created>
+      <option name="number" value="LOCAL‎00005" />
+      <option name="presentableId" value="LOCAL‎00005" />
+      <updated>1595845197024</updated>
+    </task>
+    <task id="LOCAL‎00006" summary="- Fix/Changes to the Service option">
+      <created>1595870285843</created>
+      <option name="number" value="LOCAL‎00006" />
+      <option name="presentableId" value="LOCAL‎00006" />
+      <updated>1595870285843</updated>
+    </task>
+    <task id="LOCAL‎00007" summary="- Added batch file to install script as service.">
+      <created>1595870373620</created>
+      <option name="number" value="LOCAL‎00007" />
+      <option name="presentableId" value="LOCAL‎00007" />
+      <updated>1595870373620</updated>
+    </task>
+    <task id="LOCAL‎00008" summary="- Added batch file to install script as service.">
+      <created>1595870474660</created>
+      <option name="number" value="LOCAL‎00008" />
+      <option name="presentableId" value="LOCAL‎00008" />
+      <updated>1595870474660</updated>
+    </task>
+    <task id="LOCAL‎00009" summary="- Removed Event log untill a fix is found.&#10;- Fixed myHeadset undefined error.">
+      <created>1595871508965</created>
+      <option name="number" value="LOCAL‎00009" />
+      <option name="presentableId" value="LOCAL‎00009" />
+      <updated>1595871508965</updated>
+    </task>
+    <task id="LOCAL‎00010" summary="- Fixed text not displaying correctly on 100%">
+      <created>1595872095953</created>
+      <option name="number" value="LOCAL‎00010" />
+      <option name="presentableId" value="LOCAL‎00010" />
+      <updated>1595872095953</updated>
+    </task>
+    <task id="LOCAL‎00011" summary="- Re-added Event Log support.&#10;- Refactor displayed text when headset is disconnected.&#10;- Changed the Pid and Vid of the Arctis Pro Wireless.">
+      <created>1595945050633</created>
+      <option name="number" value="LOCAL‎00011" />
+      <option name="presentableId" value="LOCAL‎00011" />
+      <updated>1595945050633</updated>
+    </task>
+    <task id="LOCAL‎00012" summary="- Re-added Event Log support.&#10;- Refactor displayed text when headset is disconnected.&#10;- Changed the Pid and Vid of the Arctis Pro Wireless.">
+      <created>1595945232079</created>
+      <option name="number" value="LOCAL‎00012" />
+      <option name="presentableId" value="LOCAL‎00012" />
+      <updated>1595945232079</updated>
+    </task>
+    <task id="LOCAL‎00013" summary="- Re-added Event Log support.&#10;- Refactor displayed text when headset is disconnected.&#10;- Changed the Pid and Vid of the Arctis Pro Wireless.">
+      <created>1595945307322</created>
+      <option name="number" value="LOCAL‎00013" />
+      <option name="presentableId" value="LOCAL‎00013" />
+      <updated>1595945307322</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Added onExit function to GameSenseManager" />
+    <MESSAGE value="- Added Install as windows service option." />
+    <MESSAGE value="- Fix/Changes to the Service option" />
+    <MESSAGE value="- Added batch file to install script as service." />
+    <MESSAGE value="- Removed Event log untill a fix is found.&#10;- Fixed myHeadset undefined error." />
+    <MESSAGE value="- Fixed text not displaying correctly on 100%" />
+    <MESSAGE value="- Re-added Event Log support.&#10;- Refactor displayed text when headset is disconnected.&#10;- Changed the Pid and Vid of the Arctis Pro Wireless." />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595804119958">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595804119958" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595847565375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595847565375" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1595949482860">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595949482860" />
+    <state x="452" y="203" key="Git.Interactive.Rebase.Dialog" timestamp="1595949405644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="203" key="Git.Interactive.Rebase.Dialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595949405644" />
+    <state x="816" y="417" key="Github.ShareDialog" timestamp="1595949322985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="816" y="417" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595949322985" />
+    <state width="949" height="299" key="GridCell.Tab.0.bottom" timestamp="1602521186876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1602521186876" />
+    <state width="949" height="150" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1595894137998" />
+    <state width="949" height="299" key="GridCell.Tab.0.center" timestamp="1602521186876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="299" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1602521186876" />
+    <state width="949" height="150" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1595894137998" />
+    <state width="949" height="299" key="GridCell.Tab.0.left" timestamp="1602521186876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="299" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1602521186876" />
+    <state width="949" height="150" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1595894137998" />
+    <state width="949" height="299" key="GridCell.Tab.0.right" timestamp="1602521186876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="299" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1602521186876" />
+    <state width="949" height="150" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1595894137998" />
+    <state x="568" y="224" key="VCS.ChangeListViewerDialog" timestamp="1595949517933">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="568" y="224" key="VCS.ChangeListViewerDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595949517933" />
+    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595949558566">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595949558566" />
+    <state x="750" y="381" key="git4idea.rebase.GitRebaseDialog" timestamp="1595949401342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="750" y="381" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595949401342" />
+    <state x="751" y="414" key="git4idea.ui.GitResetDialog" timestamp="1595949518521">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="751" y="414" key="git4idea.ui.GitResetDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1595949518521" />
+  </component>
+</project>
