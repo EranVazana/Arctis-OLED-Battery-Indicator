@@ -63,16 +63,16 @@ module.exports = class GameSenseManager {
 
     displayBatteryPercentage(percent){
         const headset_status = function (p) {
-            if (p === '-')
+            if (p === null)
                 return "Offline";
             return "Online"
         };
 
         let text_to_display = "Battery Percent: ";
-        if (percent !== '-') {
-            if (percent === 100) {
+        if (percent !== null) {
+            if (percent === 100)
                 text_to_display = text_to_display.slice(0, -1);
-            }
+
             text_to_display += percent;
             text_to_display += '%';
         }
