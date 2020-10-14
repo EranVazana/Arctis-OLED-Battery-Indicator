@@ -7,6 +7,24 @@ const Headset = require('./Headset.js');
 const GameSenseManager = require('./GameSenseManager.js');
 
 const exitHook = require('exit-hook');
+const prependFile = require('prepend-file');
+
+function getTimeStamp(){
+    var date = new Date();
+    var timeStamp =
+    ("00" + (date.getMonth() + 1)).slice(-2) + "/" +
+    ("00" + date.getDate()).slice(-2) + "/" +
+    date.getFullYear() + " " +
+    ("00" + date.getHours()).slice(-2) + ":" +
+    ("00" + date.getMinutes()).slice(-2) + ":" +
+    ("00" + date.getSeconds()).slice(-2);
+
+    return timeStamp;
+}
+
+function writeToLogFile(data){
+    prependFile.sync('log.txt', getTimeStamp() + " - " + data + '\n##########\n'); 
+}
 
 try {
     var headsetCreds = ListHeadsets.getConnectedHeadset();
@@ -18,7 +36,7 @@ try {
     });
 }
 catch (init_error) {
-    console.log(init_error);
+    writeToLogFile(init_error); 
     return;
 }
 
@@ -28,6 +46,6 @@ setInterval(function(){
         myGameSenseManager.displayBatteryPercentage(battery_percent);
     }
     catch (write_error) {
-        console.log(write_error);
+        writeToLogFile(write_error);
     }
 }, 1000);
